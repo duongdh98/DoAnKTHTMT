@@ -131,6 +131,15 @@
                 height: 45%;
                 width: 100%;
                 border: 2px solid rgb(19, 17, 17);
+                position: relative;
+                .pic_light1,.pic_light2,.pic_light3{
+                  position: absolute;
+                  left: 85px;
+                  top: 5px;
+                  height: 120px;
+                  width:  120px;
+                  
+                }
             }
             .click_to_change{
                 width: 100%;
@@ -139,7 +148,7 @@
                 .round{
                     position: absolute;
                     width: 70%;
-                    height: 60%;
+                    height: 48%;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
@@ -151,6 +160,7 @@
                         font-size: 16px;
                         color: black;
                         text-align: center;
+                        
                     }
                     .button{
                         display: inline-block;
@@ -170,14 +180,16 @@
                         z-index: -1;
                         background: rgb(32, 31, 31);
                         width: 200%;
-                        height: 200%;
+                        height: 230%;
                         border-radius: 50%;
                     }
                     .button:hover {
                         color: #fff;
+                        cursor: pointer;
                     }
                     .button:hover {
                         color: #fff;
+                        cursor: pointer;
                     }
                 
                     .button:nth-child(1):before {

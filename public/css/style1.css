@@ -149,6 +149,15 @@ body {
   height: 45%;
   width: 100%;
   border: 2px solid #131111;
+  position: relative;
+}
+
+.box_main .main .led1 .icon .pic_light1, .box_main .main .led1 .icon .pic_light2, .box_main .main .led1 .icon .pic_light3, .box_main .main .led2 .icon .pic_light1, .box_main .main .led2 .icon .pic_light2, .box_main .main .led2 .icon .pic_light3, .box_main .main .led3 .icon .pic_light1, .box_main .main .led3 .icon .pic_light2, .box_main .main .led3 .icon .pic_light3 {
+  position: absolute;
+  left: 85px;
+  top: 5px;
+  height: 120px;
+  width: 120px;
 }
 
 .box_main .main .led1 .click_to_change, .box_main .main .led2 .click_to_change, .box_main .main .led3 .click_to_change {
@@ -160,7 +169,7 @@ body {
 .box_main .main .led1 .click_to_change .round, .box_main .main .led2 .click_to_change .round, .box_main .main .led3 .click_to_change .round {
   position: absolute;
   width: 70%;
-  height: 60%;
+  height: 48%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -195,16 +204,18 @@ body {
   z-index: -1;
   background: #201f1f;
   width: 200%;
-  height: 200%;
+  height: 230%;
   border-radius: 50%;
 }
 
 .box_main .main .led1 .click_to_change .round .button:hover, .box_main .main .led2 .click_to_change .round .button:hover, .box_main .main .led3 .click_to_change .round .button:hover {
   color: #fff;
+  cursor: pointer;
 }
 
 .box_main .main .led1 .click_to_change .round .button:hover, .box_main .main .led2 .click_to_change .round .button:hover, .box_main .main .led3 .click_to_change .round .button:hover {
   color: #fff;
+  cursor: pointer;
 }
 
 .box_main .main .led1 .click_to_change .round .button:nth-child(1):before, .box_main .main .led2 .click_to_change .round .button:nth-child(1):before, .box_main .main .led3 .click_to_change .round .button:nth-child(1):before {

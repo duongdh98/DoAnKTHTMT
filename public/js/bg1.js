@@ -35,10 +35,6 @@ var background = {}
     
   }
 
-  
-  
-  
-
    background.generate_bubbles = function() {
      var $this = this;
      var base = $("<div class='shape_background'></div>");
