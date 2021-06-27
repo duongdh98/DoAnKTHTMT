@@ -108,7 +108,7 @@ body {
   background: chartreuse;
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px 10px 2px 2px;
@@ -248,5 +248,81 @@ body {
 .box_main .main .led1 .click_to_change .round .button:nth-child(3):hover:before, .box_main .main .led2 .click_to_change .round .button:nth-child(3):hover:before, .box_main .main .led3 .click_to_change .round .button:nth-child(3):hover:before {
   top: -30px;
   left: -30px;
+}
+
+.box_main .status_led {
+  height: 100%;
+  width: 20%;
+  right: 0;
+  position: absolute;
+}
+
+.box_main .status_led .head_status {
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.box_main .status_led .head_status a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Original Surfer', cursive;
+  font-size: 20px;
+  color: black;
+}
+
+.box_main .status_led .main_status {
+  width: 100%;
+  height: calc(100% - 50px);
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Original Surfer', cursive;
+  font-size: 16px;
+  color: black;
+  display: grid;
+  grid-auto-flow: row;
+  align-content: flex-start;
+  grid-gap: 5px;
+}
+
+.box_main .status_led .main_status .item {
+  height: 50px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  grid-gap: 5px;
+  padding-left: 20px;
+}
+
+.box_main .status_led .main_status .item .name {
+  height: 100%;
+  width: 150px;
+}
+
+.box_main .status_led .main_status .item .status {
+  height: 100%;
+  width: 185px;
+}
+
+.box_main .status_led .main_status .leds1, .box_main .status_led .main_status .leds2, .box_main .status_led .main_status .leds3 {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  grid-gap: 5px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.box_main .status_led .main_status .leds1 .name, .box_main .status_led .main_status .leds2 .name, .box_main .status_led .main_status .leds3 .name {
+  height: 100%;
+  width: 150px;
+}
+
+.box_main .status_led .main_status .leds1 .status, .box_main .status_led .main_status .leds2 .status, .box_main .status_led .main_status .leds3 .status {
+  height: 100%;
+  width: 185px;
 }
 /*# sourceMappingURL=style1.css.map */
